@@ -1,0 +1,207 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background-color: darkred;
+    text-align: center;
+    padding: 1px;
+}
+
+header div img {
+    border-radius: 50%;
+    width: 80px;
+    padding-top: 8px;
+}
+
+header div h1 {
+    margin: 2px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: 200;
+}
+
+nav {
+    background-color: firebrick;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 50px;
+    text-align: center;
+    color: aliceblue;
+}
+
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 3px 6px;
+    transition: 0.2s;
+    box-sizing: border-box;
+}
+
+nav i {
+    position: relative;
+    width: 40px;
+}
+
+
+nav ul li a.activo{
+    color: #bbb;
+    border-bottom: 3px solid #bbb;
+}
+
+nav a:hover{   /*Modificando*/
+    color: #bbb; /*no cambiar*/
+    transition: 0.2s;
+    font-size: 30px;
+}
+
+/*home*/
+
+
+.banner {
+    text-align: center;
+}
+
+
+.banner img {
+    width: 58%;
+    height: 303px;
+}
+
+.bienvenida {
+    width: 85%;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.subtitulo{
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 30px;
+    font-weight: 200;
+    margin: 40px;
+    text-shadow: 2px 2px 5px black;
+}
+
+span{
+    color: firebrick;
+    font-size: 55px;
+}
+
+.bienvenida h2 {
+    text-align: center;
+    font-size: 45px;
+    margin: 6px;
+    font-style: italic;
+}
+
+.bienvenida p {
+    font-size: 25px;
+
+}
+
+/*footer*/
+
+footer{
+    text-align: center;
+    background-color: #bbb;
+    height: 55px;
+}
+
+footer p{
+    padding-top: 20px;
+}
+
+/*nosotros*/
+
+.trayectoria {
+    display: block;
+    background-color: #bbb;
+    width: 45%;
+    padding: 12px;
+}
+
+.objetivo{
+    display: block;
+    background-color: #bbb;
+    width: 45%;
+    padding: 12px;
+}
+
+
+.info{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.info h3{
+    text-align: center;
+    font-size: 40px;
+    margin: 20px;
+    font-style: italic;
+}
+
+.info p {
+    font-size: 18px;
+    padding: 0 50px;
+    font-style: italic;
+}
+
+.staff h3{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 80px;
+    font-style: italic;
+}
+
+.personas{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.persona{
+    margin: 10px;
+    width: 70%;
+    text-align: center;
+}
+
+.persona:hover{ /*MODIFICANDO*/
+    transition: 0.3s;
+    background-color: #bbb;
+}
+
+
+.persona img{
+    display: flex;
+    border-radius: 50%;
+    margin: 20px auto;
+    justify-content: center;
+    border: 5px solid darkred;
+}
+
+.persona h5{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.persona p {
+    padding: 0 20px;
+}
