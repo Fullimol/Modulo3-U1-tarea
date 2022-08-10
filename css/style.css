@@ -2,7 +2,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-header{
+header {
     background-color: darkred;
     text-align: center;
     padding: 1px;
@@ -28,13 +28,13 @@ nav {
     padding: 20px;
 }
 
-nav ul{
+nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-nav ul li{
+nav ul li {
     display: inline-block;
     text-decoration: none;
     margin-left: 50px;
@@ -43,12 +43,12 @@ nav ul li{
 }
 
 
-nav ul li a{
+nav ul li a {
     color: white;
     text-decoration: none;
     display: block;
     text-align: center;
-    padding: 3px 15px 3px 6px;
+    padding: 3px 20px 3px 6px;
     transition: 0.2s;
 
 }
@@ -58,16 +58,15 @@ nav i {
     width: 40px;
 }
 
-
-nav ul li a.activo{
+nav ul li a.activo {
     color: #bbb;
-    border-bottom: 3px solid #bbb;
+    border-bottom: 2px solid #bbb;
 }
 
-nav a:hover{  
+nav a:hover {
     color: #bbb;
     transition: 0.2s;
-    transform:scale(1.5)
+    transform: scale(1.2)
 }
 
 /*home*/
@@ -89,7 +88,7 @@ nav a:hover{
     margin: 20px auto;
 }
 
-.subtitulo{
+.subtitulo {
     text-align: center;
     font-size: 40px;
     letter-spacing: 30px;
@@ -98,7 +97,7 @@ nav a:hover{
     text-shadow: 2px 2px 5px black;
 }
 
-span{
+span {
     color: firebrick;
     font-size: 55px;
 }
@@ -117,13 +116,13 @@ span{
 
 /*footer*/
 
-footer{
+footer {
     text-align: center;
     background-color: #bbb;
     height: 55px;
 }
 
-footer p{
+footer p {
     padding-top: 20px;
 }
 
@@ -136,7 +135,7 @@ footer p{
     padding: 12px;
 }
 
-.objetivo{
+.objetivo {
     display: block;
     background-color: #bbb;
     width: 45%;
@@ -144,13 +143,13 @@ footer p{
 }
 
 
-.info{
+.info {
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
 }
 
-.info h3{
+.info h3 {
     text-align: center;
     font-size: 40px;
     margin: 20px;
@@ -163,33 +162,35 @@ footer p{
     font-style: italic;
 }
 
-.staff h3{
+.staff h3 {
     text-align: center;
     font-size: 40px;
     margin-top: 80px;
     font-style: italic;
 }
 
-.personas{
+.personas {
     display: flex;
     width: 90%;
     margin: 0 auto;
 }
 
-.persona{
+.persona {
     margin: 10px;
     width: 70%;
     text-align: center;
+    box-sizing: border-box;
+    transition: 0.3s;
 }
 
-.persona:hover{ /*MODIFICANDO*/
+.persona:hover {
     transition: 0.3s;
     background-color: #bbb;
     transform: scale(1.10);
 }
 
 
-.persona img{
+.persona img {
     display: flex;
     border-radius: 50%;
     margin: 20px auto;
@@ -197,7 +198,7 @@ footer p{
     border: 5px solid darkred;
 }
 
-.persona h5{
+.persona h5 {
     font-size: 18px;
     margin-top: 15px;
     margin-bottom: 15px;
