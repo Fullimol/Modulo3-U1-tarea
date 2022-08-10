@@ -48,9 +48,9 @@ nav ul li a{
     text-decoration: none;
     display: block;
     text-align: center;
-    padding: 3px 6px;
+    padding: 3px 15px 3px 6px;
     transition: 0.2s;
-    box-sizing: border-box;
+
 }
 
 nav i {
@@ -64,10 +64,10 @@ nav ul li a.activo{
     border-bottom: 3px solid #bbb;
 }
 
-nav a:hover{   /*Modificando*/
-    color: #bbb; /*no cambiar*/
+nav a:hover{  
+    color: #bbb;
     transition: 0.2s;
-    font-size: 30px;
+    transform:scale(1.5)
 }
 
 /*home*/
@@ -185,6 +185,7 @@ footer p{
 .persona:hover{ /*MODIFICANDO*/
     transition: 0.3s;
     background-color: #bbb;
+    transform: scale(1.10);
 }
 
 
