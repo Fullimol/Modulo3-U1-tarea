@@ -223,6 +223,17 @@ footer p {
     padding-bottom: 20px;
 }
 
+/*Novedades*/
+
+.titu-novedades {
+    font-size: 35px;
+    font-style: italic;
+    letter-spacing: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+
 /*contacto*/
 
 .titu-contacto {
